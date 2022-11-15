@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Prompt', sans-serif;
+}
+
+.container{
+    width: 100%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.topmenu{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+}
+.slideshow{
+    width: 100%;
+    height: 330px;
+    background-color: purple;
+}
+.place{
+    width: 100%;
+    height: 280px;
+    background-color: chartreuse;
+}
+.manage{
+    width: 100%;
+    height: 600px;
+    background-color: pink;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+}
+.logo{
+    width: 40%;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    /* padding: 15px ; */
+    line-height: 60px;  
+}
+.menu{
+    width: 60%;
+    height: 100%;
+    float:  left;
+    font-size: 18px;
+}
+.tmenu{
+    float: right;
+    margin-right: 2%;
+    height: 100%;
+    /* background-color: brown; */
+    line-height: 60px;
+}
+.tmenu2{
+    float: right;
+    margin-right: 1%;
+    /* padding-top: 1%;
+    padding-bottom: 1%; */
+    height: 100%;
+    /* background-color: brown; */
+    line-height: 60px;
+}
+
+.em1{
+    width: 20px;
+    float: left;
+    height: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
